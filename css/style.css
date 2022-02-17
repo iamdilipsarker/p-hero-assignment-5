@@ -1,0 +1,128 @@
+/*-----------------------------*\
+ fonts
+\*-----------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/*-----------------------------*\
+  common styles and utilities
+\*-----------------------------*/
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+body{
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    width:100%;
+}
+/*----------------------------------*\
+  title section design starts here
+\*-----------------------------------*/
+.title-section{
+    font-family: Poppins;
+    font-weight: 700;
+    color:#48d1cc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    padding:10px;
+}
+.money-holding{
+    height:40px;
+    width:40px;
+}
+
+/*----------------------------------*\
+  main section design starts here
+\*-----------------------------------*/
+.main-section{
+    display:flex;
+    flex-direction: row;
+    
+}
+.calculation-section{
+    width:100%;
+    height: 550px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    background-color: #fa8072;
+    border-radius: 5px;
+    margin-right:40px;
+
+}
+.money-counting-img{
+    width:100%;
+    margin:80px 40px;
+    
+    
+}
+.common-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+    
+    
+}
+#food-cost{
+    margin-left: 10px;
+}
+#rent-cost{
+    margin-left:23px;
+}
+#income-para{
+    margin-right: 10px;
+}
+#food-para{
+    margin-left: 10px;
+}
+#cloth-para{
+    margin-right: 10px;
+}
+.expenses-total-btn{
+    margin-left: 270px;
+    padding:5px;
+    width:150px;
+    border:none;
+    background-color: #87cebb;
+    border-radius: 5px;
+}
+.expenses-total-btn:hover{
+    background-color: #ff6347;
+}
+.total-expenses{
+    margin-left: 50px;
+}
+.total-balance{
+    margin-left: 50px;
+}
+.saving-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#saving-input{
+    width:130px;
+    padding:4px;
+    border:none;
+    border-radius: 4px;
+    margin:5px;
+}
+#calculate-saving-btn{
+    width:100px;
+    background-color: #87cebb;
+    padding:4px;
+    border:none;
+    border-radius: 4px;
+    margin:5px;  
+}
+#calculate-saving-btn:hover{
+    background-color: #ff6347;
+}
