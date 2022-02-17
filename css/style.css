@@ -126,3 +126,35 @@ body{
 #calculate-saving-btn:hover{
     background-color: #ff6347;
 }
+/*----------------------------------*\
+  responsive design starts here
+\*-----------------------------------*/
+/* for small screen */
+@media only screen and (max-width:767px){
+    .main-section{
+        display:flex;
+        flex-direction: column;
+    }
+    .calculation-section {
+        width: 100%;
+    }
+    .money-counting-img{
+        width:100%;
+        margin-left: 0px;
+    }
+        
+}
+/* for medium screen */
+@media only screen and (min-width:768px) and (max-width:991px){
+    .main-section{
+        display:flex;
+        flex-direction: column;
+    }
+    .calculation-section {
+        width: 100%;
+    }
+    .money-counting-img{
+        width:100%;
+        margin-left: 0px;
+    } 
+}
