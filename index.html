@@ -32,7 +32,7 @@
             <h5 class="text-center p-2">Income</h5>
             <div class="common-section">
                 <p id="income-para" class="pt-2">Income:</p>
-                <input class="p-1 income-input border-0 rounded" type="number" placeholder="Enter your income">
+                <input id="income-input"  class="p-1 border-0 rounded" type="number" placeholder="Enter your income">
             </div>
             
                 <h5 class="text-center p-2">Expenses</h5>
@@ -51,9 +51,9 @@
                         <input id="cloth-cost" class="p-1 income-input border-0 rounded" type="number" placeholder="Enter your clothes cost">
                     </div>
                 </div>
-                <button class="expenses-total-btn">Calculate</button>
-            <h5  class="text-center mt-2 total-expenses">Total Expenses <span>00</span></h5>
-            <h5 class="text-center mt-2 total-balance">Balance <span>00</span></h5>
+                <button id="calculate-total-expenses" class="expenses-total-btn">Calculate</button>
+            <h5 class="text-center mt-2 total-expenses-header">Total Expenses <span id="total-expenses">00</span></h5>
+            <h5 class="text-center mt-2 total-balance-header">Balance <span id="update-balance">00</span></h5>
             <div class="saving-section">
                 <p class="mt-3">Save:</p>
                 <input id="saving-input" type="number" placeholder="Enter number">

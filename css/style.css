@@ -47,7 +47,7 @@ body{
     
 }
 .calculation-section{
-    width:100%;
+    width:50%;
     height: 550px;
     margin-top: 20px;
     margin-bottom: 200px;
@@ -57,7 +57,7 @@ body{
 
 }
 .money-counting-img{
-    width:100%;
+    width:50%;
     margin:80px 40px;
     
     
@@ -96,10 +96,10 @@ body{
 .expenses-total-btn:hover{
     background-color: #ff6347;
 }
-.total-expenses{
+.total-expenses-header{
     margin-left: 50px;
 }
-.total-balance{
+.total-balance-header{
     margin-left: 50px;
 }
 .saving-section{
